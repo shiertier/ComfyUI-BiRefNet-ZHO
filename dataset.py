@@ -6,8 +6,8 @@ from torch.utils import data
 from torchvision import transforms
 
 from preproc import preproc
-from config import Config
-from utils import path_to_image
+from _config import Config
+from _utils import path_to_image
 
 
 Image.MAX_IMAGE_PIXELS = None       # remove DecompressionBombWarning
